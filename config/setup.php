@@ -1,7 +1,7 @@
 <?php 
 $seccion =  isset( $_GET['c'] ) ? $_GET['c'] : 'index';
 $prov =  isset( $_GET['p'] ) ? $_GET['p'] : 'def';
-$cnx=  mysqli_connect('localhost','wadmin','bernardo05','cerrajeria');
+$cnx=  mysqli_connect('52.26.64.212','wadmin','bernardo05','ferreteria');
 if (mysqli_connect_errno())
   {
 	echo "Failed to connect to MySQL: " . mysqli_connect_error();
