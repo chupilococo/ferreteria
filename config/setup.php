@@ -18,5 +18,5 @@ function averiguaUrl() {
 		return $protocolo.'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	}else{
 		return 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-	};
+	}
 };

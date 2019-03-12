@@ -46,9 +46,11 @@ $content.="
 	</page_footer>
 	</page>";
 
-    require_once('../../../html2pdf/vendor/autoload.php');
-    require_once('../../../html2pdf/html2pdf.class.php');
-    $html2pdf = new HTML2PDF('P','A4','es');
+    require_once '/var/www/html/ferreteria/vendor/autoload.php';
+    use Spipu\Html2Pdf\Html2Pdf;
+//    use Spipu\Html2Pdf\Exception\Html2PdfException;
+//    use Spipu\Html2Pdf\Exception\ExceptionFormatter;
+    $html2pdf = new HTML2PDF('P','A4');
     $html2pdf->WriteHTML($content);
     $html2pdf->Output(dirname(__FILE__).'/presupuesto.pdf','F');
 ?>

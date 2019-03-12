@@ -43,6 +43,7 @@ body{
 
 div.cover-image {
     background-size: contain;
+	margin: 0 auto;
 }
 .derecha th {
    text-align: right;   

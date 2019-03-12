@@ -6,7 +6,7 @@
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
 	<?php $url= averiguaUrl();?>
-    <title><?php if ($seccion == 'index'){echo 'cerrajeria';} else{echo 'cerrajeria/ '.$seccion;}; ?></title>
+    <title><?php if ($seccion == 'index'){echo 'Ferreteria';} else{echo 'Ferreteria/ '.$seccion;}; ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -20,7 +20,8 @@
 		<div <?php if( $seccion == 'index' ){ echo ' class="cover"';}
 			else {echo ' class="hidden"'; };
 			 ?>
-            <div class="cover-image hidden-sm" style="background: url('img/logo.jpg') no-repeat left;">
+        >
+            <div class="cover-image hidden-sm" style="background: url('img/logo.jpg'); background-size:100%;">
 			</div>
         </div>
         <div class="section">
