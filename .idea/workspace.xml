@@ -1,167 +1,332 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php" line="48" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php" line="46" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac170b99-4f43-4f02-a31c-89b221c22fd4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mi.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/_changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/_changelog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/bookmark.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/bookmark.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple00.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple00.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple01.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple02.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple03.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple03.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple04.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple04.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple05.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple05.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple06.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple06.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple07.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple07.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple08.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple08.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple09.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple09.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple10.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple11.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple11.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple12.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple12.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple13.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/exemple13.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/forms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/groups.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/groups.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js1.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/js1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js2.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/js2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js3.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/js3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/qrcode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/radius.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/radius.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/regle.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/regle.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/bas_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/bas_page.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/bookmark.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple00.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple00.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple01.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple02.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple03.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple03.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple04.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple04.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple05.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple05.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.css" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple07a.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple07a.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple07b.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple07b.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple08.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple08.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple09.png.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple09.png.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple10a.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple10b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple10c.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple11.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple11.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple12.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple12.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple13.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/exemple13.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/forms.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/groups.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/logo.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/off.png" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/off.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/puce.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/puce.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/puce2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/puce2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/qrcode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/radius.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/regle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/regle.png" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/regle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/svg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/svg_tiger.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/svg_tree.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/tcpdf_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/res/tcpdf_logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/ticket.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/svg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg_tiger.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/svg_tiger.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg_tree.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/svg_tree.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/ticket.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/examples/utf8.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/examples/utf8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/CssConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/CssConverter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Debug/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Debug/Debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Debug/DebugInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Debug/DebugInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/ExceptionFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/ExceptionFormatter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/Html2PdfException.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/Html2PdfException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/HtmlParsingException.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/HtmlParsingException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/ImageException.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/ImageException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/LongSentenceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/LongSentenceException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/TableException.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Exception/TableException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Extension/CoreExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Extension/CoreExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Extension/ExtensionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Extension/ExtensionInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Locale.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/MyPdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/MyPdf.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Css.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/Css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/Html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/HtmlLexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/HtmlLexer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/Node.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/TagParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/TagParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/TextParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/TextParser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Parsing/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractDefaultTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractDefaultTag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractTag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Address.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/B.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/B.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Big.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Big.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Bookmark.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Bookmark.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Cite.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Cite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Del.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Del.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Em.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Em.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Font.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/I.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/I.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Ins.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Ins.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Label.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Label.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/S.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/S.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Samp.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Samp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Small.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Small.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Span.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Span.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Strong.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Strong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Sub.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Sub.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Sup.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/Sup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/TagInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/TagInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/U.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tag/U.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/CssConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/CssConverterTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/ExamplesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/ExamplesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Html2PdfTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Html2PdfTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundOkTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcOkTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/res/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Image/res/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameOkTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/HtmlLexerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/HtmlLexerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/ParsingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/ParsingTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/TagParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/TagParserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/CircleErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/CircleErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/EllipseErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/EllipseErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/GErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/GErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/LineErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/LineErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathInvalidTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathInvalidTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolygonErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolygonErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolylineErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolylineErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/RectErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/RectErrorTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/TdTooLongTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/TdTooLongTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/config/tcpdf.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/config/tcpdf.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/ca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/ca.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/cs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/cs.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/da.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/de.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/de.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/en.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/es.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/fr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/fr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/it.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/it.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/nl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/nl.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/pt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/pt.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/tr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/html2pdf/src/locale/tr.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/LISEZMOI.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_LGPL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/exception.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/locale.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/myPdf.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/parsingCss.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/parsingHtml.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/_class/tcpdfConfig.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/composer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/bookmark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple00.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple04.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple05.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple06.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple07.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple08.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple09.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple10.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple11.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple12.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/exemple13.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/groups.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/js3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/qrcode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/radius.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/regle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/bas_page.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple00.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple01.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple02.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple03.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple04.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple05.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple06.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple07a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple07b.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple08.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple09.png.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10a.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple10c.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple11.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple12.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/exemple13.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/forms.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/puce.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/puce2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/regle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/svg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/res/tcpdf_logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg_tiger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/svg_tree.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/ticket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/examples/utf8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/html2pdf.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/ca.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/cs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/da.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/de.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/en.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/es.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/fr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/it.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/nl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/pt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/locale/tr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/CssConverter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Debug/Debug.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Debug/DebugInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/ExceptionFormatter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/Html2PdfException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/HtmlParsingException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/ImageException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/LongSentenceException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Exception/TableException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Extension/CoreExtension.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Extension/ExtensionInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Html2Pdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Locale.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/MyPdf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Css.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/HtmlLexer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Node.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/TagParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/TextParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Parsing/Token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractDefaultTag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/AbstractTag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Address.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/B.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Big.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Bookmark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Cite.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Del.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Em.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Font.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/I.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Ins.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Label.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/S.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Samp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Small.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Span.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Strong.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Sub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/Sup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/TagInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tag/U.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/CssConverterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/ExamplesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Html2PdfTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/BackgroundOkTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/SrcOkTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Image/res/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Output/FileNameOkTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/HtmlLexerTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/ParsingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Parsing/TagParserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/CircleErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/EllipseErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/GErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/LineErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PathInvalidTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolygonErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/PolylineErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/Svg/RectErrorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/Tests/Tag/TdTooLongTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/config/tcpdf.config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/ca.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/cs.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/da.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/de.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/en.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/es.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/fr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/it.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/nl.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/pt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/src/locale/tr.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html2pdf/test/generate.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ventas.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ventas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/_changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/_changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/bookmark.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/bookmark.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple00.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple00.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple01.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple02.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple02.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple03.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple04.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple04.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple05.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple05.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple06.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple06.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple07.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple07.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple08.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple08.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple09.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple09.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple10.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple11.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple12.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple13.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/exemple13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/forms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/groups.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/groups.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js1.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js2.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js3.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/js3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/qrcode.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/qrcode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/radius.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/radius.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/regle.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/regle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/bas_page.png" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/bas_page.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/bookmark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple00.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple00.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple01.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple02.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple02.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple03.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple04.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple04.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple05.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple05.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple06.css" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple06.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple06.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple06.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple07a.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple07a.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple07b.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple07b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple08.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple08.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple09.png.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple09.png.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10a.gif" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10a.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10c.gif" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple10c.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple11.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple11.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple12.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple12.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple13.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/exemple13.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/forms.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/forms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/groups.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/logo.gif" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/logo.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/off.png" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/puce.gif" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/puce.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/puce2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/puce2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/qrcode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/radius.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/regle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/regle.png" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/regle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/svg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/svg_tiger.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/svg_tree.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/tcpdf_logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/tcpdf_logo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/res/ticket.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg_tiger.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg_tiger.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg_tree.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/svg_tree.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/ticket.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/ticket.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/utf8.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/examples/utf8.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/CssConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/CssConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Debug/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Debug/Debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Debug/DebugInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Debug/DebugInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/ExceptionFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/ExceptionFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/Html2PdfException.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/Html2PdfException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/HtmlParsingException.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/HtmlParsingException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/ImageException.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/ImageException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/LongSentenceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/LongSentenceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/TableException.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Exception/TableException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Extension/CoreExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Extension/CoreExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Extension/ExtensionInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Extension/ExtensionInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Locale.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Locale.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/MyPdf.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/MyPdf.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Css.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Html.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Html.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/HtmlLexer.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/HtmlLexer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Node.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Node.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/TagParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/TagParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/TextParser.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/TextParser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Parsing/Token.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/AbstractDefaultTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/AbstractDefaultTag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/AbstractTag.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/AbstractTag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/B.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/B.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Big.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Big.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Bookmark.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Bookmark.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Cite.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Cite.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Del.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Del.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Em.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Em.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Font.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Font.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/I.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/I.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Ins.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Ins.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Label.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Label.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/S.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/S.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Samp.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Samp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Small.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Small.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Span.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Span.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Strong.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Strong.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Sub.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Sub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Sup.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/Sup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/TagInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/TagInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/U.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tag/U.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/CssConverterTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/CssConverterTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/ExamplesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/ExamplesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Html2PdfTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Html2PdfTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/BackgroundErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/BackgroundErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/BackgroundOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/BackgroundOkTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/SrcErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/SrcErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/SrcOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/SrcOkTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/res/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Image/res/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Output/FileNameErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Output/FileNameErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Output/FileNameOkTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Output/FileNameOkTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/HtmlLexerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/HtmlLexerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/ParsingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/ParsingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/TagParserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Parsing/TagParserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/CircleErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/CircleErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/EllipseErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/EllipseErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/GErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/GErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/LineErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/LineErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PathErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PathErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PathInvalidTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PathInvalidTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PolygonErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PolygonErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PolylineErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/PolylineErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/RectErrorTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/Svg/RectErrorTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/TdTooLongTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Tests/Tag/TdTooLongTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/config/tcpdf.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/config/tcpdf.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/ca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/ca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/cs.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/cs.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/da.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/da.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/de.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/de.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/en.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/en.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/es.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/es.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/fr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/fr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/it.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/it.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/nl.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/nl.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/pt.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/pt.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/tr.csv" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/locale/tr.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php" beforeDir="false" afterPath="$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,34 +338,16 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/html2pdf/composer.json</pharConfigPath>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ferreteria" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/setup.php">
+        <entry file="file://$PROJECT_DIR$/modulos/ventas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/mi.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="50" column="65" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -208,18 +355,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+            <state relative-caret-position="255">
+              <caret line="17" column="160" selection-start-line="17" selection-start-column="160" selection-end-line="17" selection-end-column="160" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html2pdf/vendor/autoload.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/js/ventas.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="239" column="67" selection-start-line="239" selection-start-column="67" selection-end-line="239" selection-end-column="67" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$line</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -230,6 +386,9 @@
         <option value="$PROJECT_DIR$/css/mi.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/config/setup.php" />
+        <option value="$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Locale.php" />
+        <option value="$PROJECT_DIR$/modulos/ventas.php" />
+        <option value="$PROJECT_DIR$/js/ventas.js" />
         <option value="$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php" />
       </list>
     </option>
@@ -286,6 +445,29 @@
               <item name="ferreteria" type="b2602c69:ProjectViewProjectNode" />
               <item name="ferreteria" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ferreteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferreteria" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferreteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferreteria" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferreteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferreteria" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos" type="462c0819:PsiDirectoryNode" />
+              <item name="ventas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ferreteria" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ferreteria" type="462c0819:PsiDirectoryNode" />
+              <item name="modulos" type="462c0819:PsiDirectoryNode" />
+              <item name="ventas" type="462c0819:PsiDirectoryNode" />
+              <item name="pdf" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -296,6 +478,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modulos/ventas/pdf" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -320,20 +508,20 @@
       <option name="presentableId" value="Default" />
       <updated>1552087458401</updated>
       <workItem from="1552087459696" duration="3342000" />
-      <workItem from="1552396079968" duration="5553000" />
+      <workItem from="1552396079968" duration="13793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8895000" />
+    <option name="totallyTimeSpent" value="17135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16808964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49917626" visible="true" weight="0.16808964" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.50082374" side_tool="true" visible="true" weight="0.16808964" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -355,12 +543,28 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/html2pdf" />
+    </ignored-roots>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/mi.css">
+    <entry file="file://$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/src/Locale.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="265">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/ventas/pdf/html2pdf/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulos/ventas/nuevaFactura.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -380,16 +584,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html2pdf/vendor/composer/autoload_real.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/css/mi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html2pdf/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/modulos/ventas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="59" selection-end-line="50" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ventas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="239" column="67" selection-start-line="239" selection-start-column="67" selection-end-line="239" selection-end-column="67" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modulos/ventas/pdf/presupuesto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+        <state relative-caret-position="255">
+          <caret line="17" column="160" selection-start-line="17" selection-start-column="160" selection-end-line="17" selection-end-column="160" />
         </state>
       </provider>
     </entry>

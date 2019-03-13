@@ -236,7 +236,8 @@ var presupuestarBtn;
 			for(x=0;x<inputs.length;x++ ){
 				data+=inputs[x].name+"="+inputs[x].value+"&";
 			};
-			data+='tipoVenta='+document.getElementById('tipoVenta').value;
+			data+='tipoVenta='+document.getElementById('tipoVenta').value+"&";
+			data+='direcc='+document.getElementById('direcc').value;
 			console.log(data);
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function () {

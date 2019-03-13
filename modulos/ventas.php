@@ -46,6 +46,14 @@
 							<option value="4">C</option>
 						</select>
 					</div>
+                    <div class='form-group' >
+						<label for="direcc">Direccion</label>
+						<select class='form-control' name="direcc" required id="direcc">
+							<option value="1">Mendoza 5017</option>
+                            <option value="2">Estrada 324</option>
+                            <option value="3">Echeverria 5099</option>
+						</select>
+					</div>
 					<div class='form-group' >
 						<label for="factura">Factura</label>
 						<input type="text" class='form-control' required autocomplete="off" id='factura' name='factura'  />

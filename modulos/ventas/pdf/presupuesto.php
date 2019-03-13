@@ -2,7 +2,7 @@
 //var_dump($_POST);
 include('../../../config/setup.php');
 $venta=$_POST;
-
+var_dump($venta);
 $content = "
 <style type='text/css'>
 	img{margin:0 0 0 80px;}
@@ -15,16 +15,14 @@ $content = "
 </style>
 <page>
 	<img src='logo.jpg' alt='Logo' width=600 />
-    <p class='center lead bold'>Servicio Integral de cerrajería y Sistemas de accesos Electrónicos</p>
-    <p class='center lead bold'>Mendoza 5017 CABA, Tel 4523-3957</p>
-   	<!--table cellspacing='50' cellpadding='111' border='1'-->
+    <p class='center lead bold'>Servicio Integral de cerrajería y Sistemas de accesos Electrónicos</p><p class='center lead bold'>".getDirecc($venta['direcc'])."</p>
    	<table border='0'>
 	<tr><th>Producto</th><th style='width: 20%;'>Descripcion</th><th style='width: 20%;'>Cantidad</th><th style='width: 20%;'>Precio</th><th style='width: 20%;'>Precio Parcial</th></tr>
 	";
 $total=0;
 foreach ($venta as $indice => $valor){
 		if($indice!='tipoVenta'&&$indice!='factura'&&$indice!='fechaVenta'&&$indice!='ClienteId'){
-			//echo "{$indice} => {$valor} <hr />";
+			//echo "{$indice} => {$val$content$contentor} <hr />";
 			$producto=json_decode($valor,true);
 			//var_dump($producto);
 			$content.="
@@ -46,14 +44,15 @@ $content.="
 	</page_footer>
 	</page>";
 
-    require_once '/var/www/html/ferreteria/vendor/autoload.php';
+    require_once 'html2pdf/vendor/autoload.php';
     use Spipu\Html2Pdf\Html2Pdf;
-//    use Spipu\Html2Pdf\Exception\Html2PdfException;
-//    use Spipu\Html2Pdf\Exception\ExceptionFormatter;
-    $html2pdf = new HTML2PDF('P','A4');
+
+    $html2pdf = new HTML2PDF('P','A4','es');
     $html2pdf->WriteHTML($content);
     $html2pdf->Output(dirname(__FILE__).'/presupuesto.pdf','F');
 ?>
+
+
 <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -70,3 +69,21 @@ $content.="
 		</div>
 	</div>
 </div>
+
+<?php
+
+function getDirecc($num){
+    switch ($num){
+
+        case "1":
+            return "Mendoza 5017 CABA, Tel 4523-3957";
+            break;
+        case "2":
+            return "Estrada 324, Trenque Lauquen - Tel: 495412";
+            break;
+        case "3":
+            return "Echeverria 5099, CABA- Tel: 45219377";
+            break;
+    }
+};
+
