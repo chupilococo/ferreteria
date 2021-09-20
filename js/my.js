@@ -23,3 +23,33 @@ error = function () {
     xhttp.open("GET","modulos/acciones/error.php",true);
     xhttp.send();
 };
+
+const DC={
+    persistVentaLocal(aCarga){
+        let prevLocal=localStorage.getItem('venta');
+        if(prevLocal){
+            newLocal=JSON.parse(prevLocal);
+            newLocal.push(aCarga);
+            localStorage.setItem('venta',JSON.stringify(newLocal));
+            console.log('newLocal',newLocal)
+        }else{
+            
+            localStorage.setItem('venta',JSON.stringify([aCarga]));
+        }
+    },
+
+    getVentasLocal(){
+        return JSON.parse(localStorage.getItem('venta'));
+    },
+    wipeVentasLocal(){
+        localStorage.setItem('venta',JSON.stringify([]))
+    },
+    removeItemVentasLocal(stamp){
+        let newLocal=JSON.stringify(DC.getVentasLocal().filter((venta)=>{
+            return JSON.stringify(venta)!==$('#'+stamp)[0].value;	
+        }));
+        localStorage.setItem('venta',newLocal);
+        //console.log($('#'+stamp)[0].value)
+    }
+
+}

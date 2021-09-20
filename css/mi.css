@@ -1,67 +1,92 @@
 .modal-dialog {
-  width: 80%;
-  height: 80%;
-}
-.modal-content {
-  height: auto;
+    width: 80%;
+    height: 80%;
 }
 
-.pad{
-	margin-bottom:10px;
+.modal-content {
+    height: auto;
+}
+
+.pad {
+    margin-bottom: 10px;
+}
+
+.pad_up {
+    margin-top: 60px;
 }
 
 .alert {
-  width: 50%;
-  height: 50%;
+    width: 50%;
+    height: 50%;
 }
 
-body{
-	width:100%;
-	overflow-x:hide;
+body {
+    width: 100%;
+    overflow-x: hide;
 }
-.borde{
-	border: #544cff solid 1px;
-    border-radius:5px;
+
+.borde {
+    border: #544cff solid 1px;
+    border-radius: 5px;
     box-shadow: 0px 0px 8px #5de7ff;
 }
-.minAlt{
+
+.minAlt {
     min-height: 200px;
 }
-.maxAlt{
+
+.maxAlt {
     max-height: 200px;
-	overflow-y:auto;
-}
-.tableAlt{
-	height: 260px;
-	overflow-y:auto;
+    overflow-y: auto;
 }
 
-.magenInterno{
-	padding:0 0 10px 10px;
+.tableAlt {
+    height: 260px;
+    overflow-y: auto;
 }
 
-
+.magenInterno {
+    padding: 0 0 10px 10px;
+}
+/* 
 div.cover-image {
     background-size: contain;
-	margin: 0 auto;
+    background-position: center;
+    margin: 0 auto;
+} */
+
+.cover-image.hero{
+    background: url('../img/logo.jpg');
+    background-color: hsl(198, 100%, 43%);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+
 .derecha th {
-   text-align: right;   
+    text-align: right;
 }
 
-
-.top-marg10{
-	margin-top:10px;
+.top-marg10 {
+    margin-top: 10px;
 }
 
-.stockTable{
-	height:300px;
-	/*border:solid red 1px;*/
-	overflow:auto;
+.stockTable {
+    height: 300px;
+    /*border:solid red 1px;*/
+    overflow: auto;
 }
-.low{
-	background-color:#ff6666;
+
+.low {
+    background-color: #ff6666;
 }
-.objectModal{
-	width:100%;
+
+.objectModal {
+    width: 100%;
+}
+
+.gray-out {
+    background-color: lightgray;
+    color: gray;
 }

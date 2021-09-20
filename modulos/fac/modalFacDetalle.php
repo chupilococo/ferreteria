@@ -6,7 +6,8 @@
 				stock.nombre,
 				venta.cantidad,
 				venta.precioParcial,
-				venta.precioProveedor
+				venta.precioProveedor,
+				venta.formaPago
 			  FROM
 				rel_stock_clientes AS venta
 			  JOIN stock
@@ -38,6 +39,7 @@
 				<th>cantidad</th>
 				<th>precioParcial</th>
 				<th>precioProveedor</th>
+				<th>Pago con tarjeta</th>
 				<th>precio * cantidad</th>
 				<th></th>
 			</tr>
@@ -47,6 +49,7 @@
 					<td><?php echo $fila['cantidad'];?></td>
 					<td><?php echo $fila['precioParcial'];?></td>
 					<td><?php echo $fila['precioProveedor'];?></td>
+					<td><?=(($fila['formaPago']==1)?'Si':'No');?></td>
 					<td><?php echo $fila['precioParcial']*$fila['cantidad'];?></td>
 					<td><?php $total +=($fila['precioParcial']*$fila['cantidad']);?></td>
 					<?php $totalGastos +=($fila['precioProveedor']*$fila['cantidad']);?>

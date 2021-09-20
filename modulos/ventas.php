@@ -29,11 +29,11 @@
     <div class="col-md-6">
 		<div class='tableAlt'>
             <table class="table" id='tablaVenta'>
-				<thead><th>Nombre</th><th>Precio</th><th>Cantidad</th><th>Parcial</th><th><i class="fa fa-pencil-square-o" aria-hidden="true"></i></th></thead>
+				<thead><th>Nombre</th><th>Pago con tarjeta</th><th>Precio</th><th>Cantidad</th><th>Parcial</th><th><i class="fa fa-pencil-square-o" aria-hidden="true"></i></th></thead>
 			</table>
 		</div>
 			<p class='text-right lead'>total: $<span id='totalVenta'>0</span></p>
-			<form class='form-inline' id='ventasForm' action="modulos/ventas/nuevaFactura.php" method='post'>
+			<form class='form-inline' id='ventasForm' action="modulos/ventas/nuevaFactura.php" onsubmit="DC.wipeVentasLocal" method='post'>
 				<div class='row'>
 					<div class='row magenInterno'>
 					<div class='form-group' >
@@ -65,9 +65,9 @@
 					</div>
 					</div>
 				<div class='row magenInterno'>
-					<button class="btn btn-danger" type="button" id='ventaCancel'/>cancelar</button>
+					<button class="btn btn-danger" type="button" id='ventaCancel'/>Vaciar</button>
 					<button class="btn btn-default" data-toggle="modal" data-target="#modal" type="button" id='presupuestarBtn' />presupuestar</button>
-					<input class="btn btn-success" type="submit" value='Ejecutar' />
+					<input class="btn btn-success" onclick="DC.wipeVentasLocal" type="submit" value='Ejecutar' />
 				</div>
 			</form>
 	</div>

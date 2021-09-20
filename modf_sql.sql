@@ -1,0 +1,1 @@
+ALTER TABLE rel_stock_clientes ADD id INT PRIMARY KEY AUTO_INCREMENT;

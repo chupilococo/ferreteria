@@ -21,7 +21,7 @@
 				<?php endwhile;?>
 			</select>
 			<label for="codigo">Cantidad</label><input class='form-control' name='cantidad' required autocomplete='off' type="number" />
-			<label for="codigo">Precio</label><input class='form-control' name='precio' step="0.01" required autocomplete='off' type="number" />
+			<label for="codigo">Precio</label><input class='form-control' name='precio' required autocomplete='off' type="number" step="any"/>
 			
 	  </div>
       <div class="modal-footer">

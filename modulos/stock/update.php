@@ -1,4 +1,3 @@
-<pre>
 <?php
 	include('../../config/setup.php');
 	var_dump($_POST);
@@ -19,10 +18,13 @@
 	echo $sql;
 	mysqli_query($cnx,$sql);
 	if (!mysqli_error($cnx)){
-		header('Location:../../index.php?c=stock');
+		if($_POST['ProvIsSet']){
+			//echo 'Location:../../index.php?c=stock&ProvSearch='. $producto['proveedor'];
+			header('Location:../../index.php?c=stock&ProvSearch='. $producto['proveedor']);
+		}else{
+			//echo 'Location:../../index.php?c=stock';
+			header('Location:../../index.php?c=stock');
+		}
 	}else{
 		header('Location:../../index.php?c=stock#error');
 	};
-?>
-</pre>
-<?php
