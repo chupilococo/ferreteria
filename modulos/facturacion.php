@@ -7,7 +7,7 @@
  * Time: 04:09 PM
  */
 
-
+$filtro = null;
 
 $consulta = "SELECT
 				Fac.id,
@@ -24,7 +24,8 @@ $consulta = "SELECT
 			";
 
 if (isset($_GET['filtro'])) {
-	if ($_GET['filtro'] == 'impagas') {
+	$filtro = $_GET['filtro'];
+	if ($filtro == 'impagas') {
 		$consulta = "SELECT
 				Fac.id,
 				Fac.tipo_de_factura_id,
@@ -39,7 +40,7 @@ if (isset($_GET['filtro'])) {
 			where Fac.pago=0
 			ORDER BY Fac.estado, Fac.fecha Desc
 			";
-	} else if ($_GET['filtro'] == 'pagas') {
+	} else if ($filtro == 'pagas') {
 		$consulta = "SELECT
 				Fac.id,
 				Fac.tipo_de_factura_id,
@@ -67,17 +68,17 @@ $query = mysqli_query($cnx, $consulta);
 					<div class="col-xs-6">
 						<select class='form-control ' name="filtro" id="filtro">
 							<?php
-							$options = array( 'todo','impagas', 'pagas');
+							$options = array('todo', 'impagas', 'pagas');
 
 							$output = '';
 							for ($i = 0; $i < count($options); $i++) {
 								$output .= '<option '
-									. ($_GET['filtro'] == $options[$i] ? 'selected="selected"' : '') . ' value='.$options[$i].'>'
+									. ($filtro == $options[$i] ? 'selected="selected"' : '') . ' value=' . $options[$i] . '>'
 									. $options[$i]
 									. '</option>';
 							}
 							?>
-							<?=$output?>
+							<?= $output ?>
 							<!-- <option value="impagas">impagas</option>
 							<option value="pagas">pagas</option>
 							<option value="todo">todo</option> -->
@@ -116,15 +117,15 @@ $query = mysqli_query($cnx, $consulta);
 								if ($fila['pago'] == 0) {
 
 								?>
-									<button data-toggle="modal" data-target="#modal" onclick='facTogglePago(<?php echo $fila['id']; ?>)' class='btn btn-primary'>Marcar Paga</button>
+									<button data-toggle="modal" data-target="#modal" onclick='facTogglePago(<?php echo $fila["id"]; ?>)' class='btn btn-primary'>Marcar Paga</button>
 								<?php
 								}
 								?>
-								<button data-toggle="modal" data-target="#modal" onclick='facDetalle(<?php echo $fila['id']; ?>)' class='btn btn-primary'>detalles</button>
-								<button data-toggle="modal" data-target="#modal" onclick='facAbrir(<?php echo $fila['id']; ?>)' class=' <?php echo ($fila['estado'] == 1) ? '' : 'hidden '; ?>btn btn-success'>abrir</button>
-								<button data-toggle="modal" data-target="#modal" onclick='facEditar(<?php echo $fila['id']; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?>btn btn-success'>editar</button>
-								<button data-toggle="modal" data-target="#modal" onclick='facBorrar(<?php echo $fila['id']; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?>btn btn-danger'>borrar</button>
-								<button data-toggle="modal" data-target="#modal" onclick='facCerrar(<?php echo $fila['id']; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?> btn btn-warning'>cerrar</button>
+								<button data-toggle="modal" data-target="#modal" onclick='facDetalle(<?php echo $fila["id"]; ?>)' class='btn btn-primary'>detalles</button>
+								<button data-toggle="modal" data-target="#modal" onclick='facAbrir(<?php echo $fila["id"]; ?>)' class=' <?php echo ($fila['estado'] == 1) ? '' : 'hidden '; ?>btn btn-success'>abrir</button>
+								<button data-toggle="modal" data-target="#modal" onclick='facEditar(<?php echo $fila["id"]; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?>btn btn-success'>editar</button>
+								<button data-toggle="modal" data-target="#modal" onclick='facBorrar(<?php echo $fila["id"]; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?>btn btn-danger'>borrar</button>
+								<button data-toggle="modal" data-target="#modal" onclick='facCerrar(<?php echo $fila["id"]; ?>)' class=' <?php echo ($fila['estado'] == 0) ? '' : 'hidden '; ?> btn btn-warning'>cerrar</button>
 							</td>
 						</tr>
 					<?php
