@@ -34,6 +34,20 @@ clienteDetalleAj = function (str) {
     xhttp.send();
 };
 
+var clienteEditar = function (id) {
+  clienteEditarAj(id);
+};
+clienteEditarAj = function (str) {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function () {
+    if (this.readyState == 4) if (this.status == 200) {
+      modal.innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "modulos/cli/modalCliEditar.php?id=" + str, true);
+  xhttp.send();
+};
+
 
 var clienteBorrar = function(id){
 	clienteBorrarAj(id);

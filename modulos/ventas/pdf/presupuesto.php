@@ -2,7 +2,7 @@
 //var_dump($_POST);
 include('../../../config/setup.php');
 $venta = $_POST;
-// var_dump($venta);
+//var_dump($venta);
 $content = "
 <style type='text/css'>
 	img{margin:0 0 0 80px;}
@@ -10,15 +10,16 @@ $content = "
 	.lead{ font-size:120%; }
 	.bold{font-weight: bold}
 	th{background-color:#aaaaaa;}
-	td{border-bottom:1px solid black;}
+	td{border-bottom:1px solid black; word-wrap: break-word; }
 	.derecha{text-align:right;}
+	.izquierda{text-align:left;}
 </style>
 <page>
 	<img src='" . getLogo($venta['direcc']) . "' alt='Logo' width=600 />
     <!--<p class='center lead bold'>Servicio Integral de cerrajería y Sistemas de accesos Electrónicos</p><p class='center lead bold'>" . getDirecc($venta['direcc']) . "</p>-->
     <p class='center lead bold'> Insumos y prestaciones </p><p class='center lead bold'>" . getDirecc($venta['direcc']) . "</p>
-   	<table border='0'>
-	<tr><th>Producto</th><th style='width: 20%;'>Descripcion</th><th style='width: 20%;'>Cantidad</th><th style='width: 20%;'>Precio</th><th style='width: 20%;'>Precio Parcial</th></tr>
+   	<table  class='derecha' border='0'>
+	<tr><th>Producto</th><th >Descripción</th><th style='width: 10px;'>Cantidad</th><th>Precio unitario</th><th>Precio total</th></tr>
 	";
 $total = 0;
 foreach ($venta as $indice => $valor) {
@@ -26,33 +27,36 @@ foreach ($venta as $indice => $valor) {
 		//echo "{$indice} => {$val$content$contentor} <hr />";
 		$producto = json_decode($valor, true);
 		//var_dump($producto);
-		$content .= "
-				<tr>
-					<td style='width: 140px;'>$producto[CargaNombre]</td>
-					<td style='width: 350px;'>$producto[CargaDesc]</td>
-					<td style='width: 70px;'>$producto[CargaCantidad]</td>
-					<td style='width: 70px;'>$producto[CargaPrecio]</td>
-					<td style='width: 70px;'>$producto[CargaTotal]</td>
-				</tr>";
-		$total += $producto['CargaTotal'];
+		if (empty(trim($producto))) {
+			$content .= "
+			<tr>
+				<td class='izquierda' style='width: 100px;'>" . $producto['CargaNombre'] . "</td>
+				<td class='izquierda' style='width: 200px;'>" . $producto['CargaDesc'] . "</td>
+				<td style='width: 10px'>" . $producto['CargaCantidad'] . "</td>
+				<td >" . number_format($producto['CargaPrecio'], 2, ",", ".") . "</td>
+				<td >" . number_format($producto['CargaTotal'], 2, ",", ".") . "</td>
+			</tr>";
+			$total += $producto['CargaTotal'];
+		}
 	};
 };
 $content .= "
 	<tr class='lead bold'>
 		<td></td>
+		<td></td>
 		<td style='width: 140px;'></td>
 		<td style='width: 140px;'>TOTAL:</td>
-		<td style='width: 140px;'>$total</td>
+		<td style='width: 140px;'>" . number_format($total, 2, ",", ".") . "</td>
 	</tr>
 	</table>
-	".getSocilaMedia($venta['direcc'])."
+	" . getSocilaMedia($venta['direcc']) . "
 	<page_footer>
 		<p class='derecha'> fecha:" . $venta['fechaVenta'] . " \t pagina: [[page_cu]]/[[page_nb]]</p>
 	</page_footer>
 	</page>
 ";
 
-require_once 'html2pdf/vendor/autoload.php';
+require_once __DIR__ . '/html2pdf/vendor/autoload.php';
 
 use Spipu\Html2Pdf\Html2Pdf;
 
@@ -70,7 +74,8 @@ $html2pdf->Output(dirname(__FILE__) . '/presupuesto.pdf', 'F');
 		<div class="modal-body">
 			<!--?php echo $content;?-->
 			<hr />
-			<object class='objectModal' data="modulos/ventas/pdf/presupuesto.pdf" width="500" height="375" type="application/pdf"></object>
+			<object class='objectModal' data="modulos/ventas/pdf/presupuesto.pdf" width="500" height="375" type="application/pdf">
+			</object>
 		</div>
 		<div class="modal-footer">
 			<a href="modulos/ventas/pdf/presupuesto.pdf" target="_blank" class="btn btn-info">Abrir</a>

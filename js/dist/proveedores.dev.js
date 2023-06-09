@@ -1,113 +1,104 @@
+"use strict";
+
 /**
 * Funciones Y Ajax de proveedores
 **/
-
 document.getElementById('nuevoProv').addEventListener('click', function () {
   agregarProv();
 }, true);
 
-
-agregarProv = function () {
+agregarProv = function agregarProv() {
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       modal.innerHTML = this.responseText;
     }
   };
+
   xhttp.open("GET", "modulos/prov/agregar.php", true);
   xhttp.send();
 };
 
-
-
-var provDetalle = function (id) {
+var provDetalle = function provDetalle(id) {
   provDetalleAj(id);
 };
-provDetalleAj = function (str) {
+
+provDetalleAj = function provDetalleAj(str) {
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       modal.innerHTML = this.responseText;
     }
   };
+
   xhttp.open("GET", "modulos/prov/modalProvDetalle.php?id=" + str, true);
   xhttp.send();
 };
 
-
-var provEditar = function (id) {
+var provEditar = function provEditar(id) {
   provEditarAj(id);
 };
-provEditarAj = function (str) {
+
+provEditarAj = function provEditarAj(str) {
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       modal.innerHTML = this.responseText;
     }
   };
+
   xhttp.open("GET", "modulos/prov/modalProvEditar.php?id=" + str, true);
   xhttp.send();
 };
 
-const provExportarAJ = function (id, porcentaje) {
-  const ratio = porcentaje / 100;
-  const url = 'http://' + window.location.host + `:3000/providers/${id}/stock/${ratio}`;
+var provExportarAJ = function provExportarAJ(id, porcentaje) {
+  var ratio = porcentaje / 100;
+  var url = 'http://' + window.location.host + ":3000/providers/".concat(id, "/stock/").concat(ratio);
   window.open(url, '_blank').focus;
-}
-
-const provExportar = (id) => {
-  modal.innerHTML = `
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Porcentaje de Exportacion</h4>
-        </div>
-      <div class="form">
-      <div class="modal-body">
-        <label for="porcentaje">Porcentaje</label><input class='form-control' id='porcentaje' value='100' type="number"  />	
-      </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          <button onClick='provExportarAJ(${id},document.getElementById("porcentaje").value)' class="btn btn-success">Exportar</button>
-        </div>
-      </div>
-      </div>
-    </div>
-  `;
 };
 
+var provExportar = function provExportar(id) {
+  modal.innerHTML = "\n    <div class=\"modal-dialog\">\n      <div class=\"modal-content\">\n        <div class=\"modal-header\">\n          <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\n          <h4 class=\"modal-title\">Porcentaje de Exportacion</h4>\n        </div>\n      <div class=\"form\">\n      <div class=\"modal-body\">\n        <label for=\"porcentaje\">Porcentaje</label><input class='form-control' id='porcentaje' value='100' type=\"number\"  />\t\n      </div>\n        <div class=\"modal-footer\">\n          <button type=\"button\" class=\"btn btn-danger\" data-dismiss=\"modal\">Close</button>\n          <button onClick='provExportarAJ(".concat(id, ",document.getElementById(\"porcentaje\").value)' class=\"btn btn-success\">Exportar</button>\n        </div>\n      </div>\n      </div>\n    </div>\n  ");
+};
 
-
-var provBorrar = function (id) {
+var provBorrar = function provBorrar(id) {
   provBorrarAj(id);
 };
-provBorrarAj = function (str) {
+
+provBorrarAj = function provBorrarAj(str) {
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       modal.innerHTML = this.responseText;
     }
   };
+
   xhttp.open("GET", "modulos/prov/modalProvBorrar.php?id=" + str, true);
   xhttp.send();
 };
 
-
 var provProd;
-provProd = function (str) {
+
+provProd = function provProd(str) {
   provProdAj(str);
-}
+};
 
 var provProdAj;
-provProdAj = function (str) {
+
+provProdAj = function provProdAj(str) {
   console.log(str);
   var xhttp = new XMLHttpRequest();
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       modal.innerHTML = this.responseText;
     }
   };
+
   xhttp.open("GET", "modulos/prov/modalProvProd.php?id=" + str, true);
   xhttp.send();
 };

@@ -2,13 +2,13 @@
  * Funciones Y Ajax de Facturas
  **/
 
-var facDetalle = function(id) {
+var facDetalle = function (id) {
     facDetalleAj(id);
 };
 
-facDetalleAj = function(str) {
+facDetalleAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -18,13 +18,13 @@ facDetalleAj = function(str) {
     xhttp.send();
 };
 
-var facEditar = function(id) {
+var facEditar = function (id) {
     facEditarAj(id);
 };
 
-facEditarAj = function(str) {
+facEditarAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -36,12 +36,12 @@ facEditarAj = function(str) {
 
 
 
-var facBorrar = function(id) {
+var facBorrar = function (id) {
     facBorrarAj(id);
 };
-facBorrarAj = function(str) {
+facBorrarAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -51,13 +51,13 @@ facBorrarAj = function(str) {
     xhttp.send();
 };
 
-var facCerrar = function(id) {
+var facCerrar = function (id) {
     facCerrarAj(id);
 };
 
-facCerrarAj = function(str) {
+facCerrarAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -67,13 +67,13 @@ facCerrarAj = function(str) {
     xhttp.send();
 };
 
-var facAbrir = function(id) {
+var facAbrir = function (id) {
     facAbrirAj(id);
 };
 
-facAbrirAj = function(str) {
+facAbrirAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -86,13 +86,13 @@ facAbrirAj = function(str) {
 
 
 
-var facTogglePago = function(id) {
+var facTogglePago = function (id) {
     facTogglePagoAj(id);
 };
 
-facTogglePagoAj = function(str) {
+facTogglePagoAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -104,12 +104,12 @@ facTogglePagoAj = function(str) {
 
 
 
-var togglePago = function(id) {
+var togglePago = function (id) {
     togglePagoAj(id);
 };
-togglePagoAj = function(str) {
+togglePagoAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -124,12 +124,12 @@ togglePagoAj = function(str) {
 
 
 
-var cerrarFac = function(id) {
+var cerrarFac = function (id) {
     CerrarFacAj(id);
 };
-CerrarFacAj = function(str) {
+CerrarFacAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -139,12 +139,12 @@ CerrarFacAj = function(str) {
     xhttp.send();
 };
 
-var abrirFac = function(id) {
+var abrirFac = function (id) {
     abrirFacAj(id);
 };
-abrirFacAj = function(str) {
+abrirFacAj = function (str) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 modal.innerHTML = this.responseText;
@@ -154,7 +154,7 @@ abrirFacAj = function(str) {
     xhttp.send();
 };
 
-var elimProdFac = function(id, facturas_id, elem) {
+var elimProdFac = function (id, facturas_id, elem) {
     // console.log(stock_id, facturas_id);
     var row = elem.parentNode.parentNode;
     elem.classList.remove('btn-primary');
@@ -172,14 +172,30 @@ var elimProdFac = function(id, facturas_id, elem) {
 }
 
 
-elimProdFacAj = function(id, facturas_id) {
+elimProdFacAj = function (id, facturas_id) {
     var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+    xhttp.onreadystatechange = function () {
         if (this.readyState == 4)
             if (this.status == 200) {
                 // modal.innerHTML = this.responseText;
             }
     };
     xhttp.open("GET", "modulos/fac/elimProdFac.php?id=" + id + "&facturas_id=" + facturas_id, true);
+    xhttp.send();
+};
+
+
+
+getPDF = function (id) {
+
+    //console.log(id);
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4) if (this.status == 200) {
+            modal.innerHTML = this.responseText;
+        }
+    };
+
+    xhttp.open("GET", "modulos/fac/pdf/getPDF.php?id=" + id, true);
     xhttp.send();
 };

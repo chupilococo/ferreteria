@@ -48,7 +48,7 @@ $consulta_productos = "
 FROM
 	stock s
 join
-	ferreteria.proveedores p 
+	proveedores p 
 	on p.id =s.FKproveedores 
 WHERE
 	(s.nombre like '$stockSearch'

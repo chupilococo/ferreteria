@@ -69,6 +69,7 @@ $query = mysqli_query($cnx, $consulta);
 								<td><?php echo $fila['codigo'] ?></td>
 								<td>
 									<button data-toggle="modal" data-target="#modal" onclick='provDetalle(<?php echo $fila['id'] ?>)' class='btn btn-primary'>detalles</button>
+									<button data-toggle="modal" data-target="#modal" onclick='provExportar(<?php echo $fila['id'] ?>)' class='btn btn-warning'>exportar</button>
 									<button data-toggle="modal" data-target="#modal" onclick='provEditar(<?php echo $fila['id'] ?>)' class='btn btn-success'>editar</button>
 									<button data-toggle="modal" data-target="#modal" onclick='provBorrar(<?php echo $fila['id'] ?>)' class='btn btn-danger'>borrar</button>
 								</td>

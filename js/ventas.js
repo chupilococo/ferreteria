@@ -23,14 +23,11 @@ checkProdNom = function (str) {
 		if (this.readyState == 4) if (this.status == 200) {
 			if (this.responseText.trim() != '<p></p>') {
 				prodxr.classList.remove('hidden');
-				//separator.classList.remove('minAlt');
 				vacio();
 				prodxr.classList.add('borde');
 				prodxr.innerHTML = this.responseText;
 			} else {
 				prodxr.classList.add('hidden');
-				//separator.classList.remove('hidden');
-				//separator.classList.add('minAlt')
 			}
 		}
 	};
@@ -88,7 +85,6 @@ checkProdCod = function (str) {
 var ClienteSearch;
 ClienteSearch = document.getElementById('cliente');
 ClienteSearch.addEventListener('input', function () {
-	//console.log(ClienteSearch.value.trim());
 	checkClidNom(ClienteSearch.value.trim());
 	vacio();
 }, true);
@@ -164,28 +160,46 @@ CargaModal = function (str) {
 	xhttp.send();
 };
 
+var CalcPersentage;
+CalcPersentage = function () {
+	CargaPrecio.value = parseFloat(CargaPrecioPorcentaje.value) * parseFloat(CargaPrecioProv.value) / 100;
+	CalcTotal();
+};
+
 var CalcTotal;
 CalcTotal = function () {
 	CargaTotal.value = parseFloat(CargaPrecio.value) * parseInt(CargaCantidad.value);
 };
 
 var ModalElements = function () {
+
+	var CargaPrecioPorcentaje;
+	CargaPrecioPorcentaje = document.getElementById('CargaPrecioPorcentaje');
+
 	var CargaPrecio;
 	CargaPrecio = document.getElementById('CargaPrecio');
+
 	var CargaPrecioProv;
 	CargaPrecioProv = document.getElementById('CargaPrecioProv');
+
 	var CargaPrecioProvBD;
 	CargaPrecioProvBD = document.getElementById('CargaPrecioProvBD');
+
 	var CargaCantidad;
 	CargaCantidad = document.getElementById('CargaCantidad');
+
 	var CargaTotal;
 	CargaTotal = document.getElementById('CargaTotal');
+
 	var CargaId;
 	CargaId = document.getElementById('CargaId');
+
 	var CargaNombre;
 	CargaNombre = document.getElementById('CargaNombre');
+
 	var CargaDesc;
 	CargaDesc = document.getElementById('CargaDesc');
+
 	var formaPago;
 	formaPago = document.getElementById('formaPago');
 }
@@ -213,7 +227,7 @@ CargarTablaVenta = function (aCarga) {
 		<td> ${aCarga.CargaCantidad} </td>
 		<td> ${(parseInt(aCarga.CargaCantidad) * parseFloat(aCarga.CargaPrecio))} </td>
 		<td>
-			<i onclick="descEdit( ${aCarga.stamp} )" class="fa fa-pencil-square-o" aria-hidden="true"></i>
+			<i  onclick="descEdit( ${aCarga.stamp} )" class="fa fa-pencil-square-o"  data-toggle="modal" data-target="#modal" aria-hidden="true"></i>
 			<i onclick="removeItem( ${aCarga.stamp} )" class="fa fa-times" aria-hidden="true"></i>
 		</td>`;
 	tablaVenta.appendChild(tr);
@@ -272,19 +286,31 @@ getPres = function () {
 	xhttp.send(data);
 };
 
+const changeDesc = (desc, id) => {
+	//console.log(desc);
+	var val = JSON.parse($('#' + id).val());
+	val.CargaDesc = desc;
+	$('#' + id).val(JSON.stringify(val));
+}
+
 var descEdit;
 descEdit = function (id) {
 	var val = JSON.parse($('#' + id).val());
-	promtP(val, id);
-	/*val.CargaDesc=prompt("Descripcion", val.CargaDesc);
-		$('#'+id).val(JSON.stringify(val));
-	console.log(JSON.parse($('#'+id).val()));*/
-};
-
-var promtP;
-promtP = function (val, id) {
-	val.CargaDesc = prompt("Descripcion", val.CargaDesc);
-	$('#' + id).val(JSON.stringify(val));
+	modal.innerHTML = `
+	  <div class="modal-dialog alert">
+		<div class="modal-content">
+		<div class="modal-header">
+		</div>
+		<div class="modal-body">
+			<p class='lead'>Descripcion</p>
+			<textarea class="form-control" id='descripcionArea' rows="5">${val.CargaDesc}</textarea>
+		</div>
+		<div class="modal-footer">
+			<button type="button" onclick="changeDesc(document.getElementById('descripcionArea').value, ${id})" class="btn btn-success" data-dismiss="modal">Aceptar</button>
+		</div>
+		</div>
+	</div>
+	`;
 };
 
 const removeItem = (stamp) => {

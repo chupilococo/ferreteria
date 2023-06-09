@@ -14,7 +14,6 @@ if (isset($_GET['id']) && $_GET['id'] != '') :
 		$isIvaExcpted = true;
 	}
 
-
 ?>
 
 
@@ -25,7 +24,7 @@ if (isset($_GET['id']) && $_GET['id'] != '') :
 				<h4 class="modal-title"><?php echo $row['nombre']; ?></h4>
 			</div>
 			<div class="modal-body">
-				<div class="form-group">
+				<div class="form-inline">
 					<?php
 					if ($isIvaExcpted) {
 					?>
@@ -33,33 +32,49 @@ if (isset($_GET['id']) && $_GET['id'] != '') :
 					<?php
 					}
 					?>
-					<label>Nombre </label>
-					<input class='form-control' type="text" id='CargaNombre' value='<?php echo $row['nombre']; ?>' disabled='disabled' />
-
-					<label>Descripcion </label>
-					<input class='form-control' type="text" id='CargaDesc' value='<?php echo $row['descripcion']; ?>' disabled='disabled' />
-
 					<input type="hidden" value='<?php echo $row['precio']; ?>' id='CargaPrecioProvBD' disabled='disabled' />
 					<input type="hidden" value='<?php echo $row['id']; ?>' id='CargaId' disabled='disabled' />
+					<div>
+						<label>Nombre
+							<input class='form-control' type="text" id='CargaNombre' value='<?php echo $row['nombre']; ?>' disabled='disabled' />
+						</label>
 
-					<label>Precio Proveedor </label>
-					<input class='form-control' id='CargaPrecioProv' type="number" value='<?php echo (($isIvaExcpted) ? $row['precio'] : $row['precio'] * 1.21); ?>' disabled='disabled' />
+						<label>Descripcion
+							<input class='form-control' type="text" id='CargaDesc' value='<?php echo $row['descripcion']; ?>' />
+						</label>
+					</div>
 
-					<label>Precio Cliente </label>
-					<input class='form-control' id='CargaPrecio' onchange='CalcTotal()' type="number" step="any" value='<?php echo (($isIvaExcpted) ? $row['precio'] : $row['precio'] * 1.21); ?>' />
+					<div>
+						<label>Precio Proveedor
+							<input class='form-control' id='CargaPrecioProv' type="number" value='<?php echo (($isIvaExcpted) ? $row['precio'] : $row['precio'] * 1.21); ?>' disabled='disabled' />
+						</label>
+					</div>
 
-					<label>Cantidad</label>
-					<input class='form-control' onchange='CalcTotal()' id='CargaCantidad' type="number" value=0 />
+					<div>
+						<label>Porcentaje Cliente
+							<input class='form-control' id='CargaPrecioPorcentaje' onchange='CalcPersentage()' type="number" step="any" value='185' /> %
+						</label>
+						<label>Parcial Cliente
+							<input class='form-control' id='CargaPrecio' onchange='CalcTotal()' type="number" step="any" value='<?php echo (($isIvaExcpted) ? $row['precio'] : $row['precio'] * 1.21); ?>' />
+						</label>
+					</div>
+					<div>
+						<label>Cantidad
+							<input class='form-control' onchange='CalcTotal()' id='CargaCantidad' type="number" value=0 />
+						</label>
+					</div>
+					<div>
+						<label>Forma de Pago
+							<select class='form-control' id='formaPago'>
+								<option value="0">Efectivo</option>
+								<option value="1">Tarjeta</option>
+							</select>
+						</label>
+					</div>
 
-					<label>Forma de Pago</label>
-					<!-- <input class='form-control' id='CargaFormaPago' value=0 /> -->
-					<select class='form-control' id='formaPago'>
-						<option value="0">Efectivo</option>
-						<option value="1">Tarjeta</option>
-					</select>
-
-					<label>TOTAL</label>
-					<input class='form-control' id='CargaTotal' type="number" step="any" />
+					<label>TOTAL
+						<input class='form-control' id='CargaTotal' type="number" step="any" />
+					</label>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>

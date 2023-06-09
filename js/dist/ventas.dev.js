@@ -24,14 +24,12 @@ checkProdNom = function checkProdNom(str) {
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4) if (this.status == 200) {
       if (this.responseText.trim() != '<p></p>') {
-        prodxr.classList.remove('hidden'); //separator.classList.remove('minAlt');
-
+        prodxr.classList.remove('hidden');
         vacio();
         prodxr.classList.add('borde');
         prodxr.innerHTML = this.responseText;
       } else {
-        prodxr.classList.add('hidden'); //separator.classList.remove('hidden');
-        //separator.classList.add('minAlt')
+        prodxr.classList.add('hidden');
       }
     }
   };
@@ -93,7 +91,6 @@ checkProdCod = function checkProdCod(str) {
 var ClienteSearch;
 ClienteSearch = document.getElementById('cliente');
 ClienteSearch.addEventListener('input', function () {
-  //console.log(ClienteSearch.value.trim());
   checkClidNom(ClienteSearch.value.trim());
   vacio();
 }, true);
@@ -174,6 +171,13 @@ CargaModal = function CargaModal(str) {
   xhttp.send();
 };
 
+var CalcPersentage;
+
+CalcPersentage = function CalcPersentage() {
+  CargaPrecio.value = parseFloat(CargaPrecioPorcentaje.value) * parseFloat(CargaPrecioProv.value) / 100;
+  CalcTotal();
+};
+
 var CalcTotal;
 
 CalcTotal = function CalcTotal() {
@@ -181,6 +185,8 @@ CalcTotal = function CalcTotal() {
 };
 
 var ModalElements = function ModalElements() {
+  var CargaPrecioPorcentaje;
+  CargaPrecioPorcentaje = document.getElementById('CargaPrecioPorcentaje');
   var CargaPrecio;
   CargaPrecio = document.getElementById('CargaPrecio');
   var CargaPrecioProv;
@@ -214,7 +220,7 @@ CargarTablaVenta = function CargarTablaVenta(aCarga) {
   var strProd = JSON.stringify(aCarga);
   var tr;
   tr = document.createElement('tr');
-  tr.innerHTML = "\n\t\t<td> ".concat(aCarga.CargaNombre, " </td>\n\t\t<td> ").concat(aCarga.formaPago == 0 ? 'No' : 'Si', " </td>\n\t\t<td> ").concat(aCarga.CargaPrecio, " </td>\n\t\t<td> ").concat(aCarga.CargaCantidad, " </td>\n\t\t<td> ").concat(parseInt(aCarga.CargaCantidad) * parseFloat(aCarga.CargaPrecio), " </td>\n\t\t<td>\n\t\t\t<i onclick=\"descEdit( ").concat(aCarga.stamp, " )\" class=\"fa fa-pencil-square-o\" aria-hidden=\"true\"></i>\n\t\t\t<i onclick=\"removeItem( ").concat(aCarga.stamp, " )\" class=\"fa fa-times\" aria-hidden=\"true\"></i>\n\t\t</td>");
+  tr.innerHTML = "\n\t\t<td> ".concat(aCarga.CargaNombre, " </td>\n\t\t<td> ").concat(aCarga.formaPago == 0 ? 'No' : 'Si', " </td>\n\t\t<td> ").concat(aCarga.CargaPrecio, " </td>\n\t\t<td> ").concat(aCarga.CargaCantidad, " </td>\n\t\t<td> ").concat(parseInt(aCarga.CargaCantidad) * parseFloat(aCarga.CargaPrecio), " </td>\n\t\t<td>\n\t\t\t<i  onclick=\"descEdit( ").concat(aCarga.stamp, " )\" class=\"fa fa-pencil-square-o\"  data-toggle=\"modal\" data-target=\"#modal\" aria-hidden=\"true\"></i>\n\t\t\t<i onclick=\"removeItem( ").concat(aCarga.stamp, " )\" class=\"fa fa-times\" aria-hidden=\"true\"></i>\n\t\t</td>");
   tablaVenta.appendChild(tr);
   totalVenta.innerHTML = parseFloat(totalVenta.innerHTML) + parseInt(aCarga.CargaCantidad) * parseFloat(aCarga.CargaPrecio);
   var inputForm = document.createElement('input');
@@ -274,21 +280,18 @@ getPres = function getPres() {
   xhttp.send(data);
 };
 
+var changeDesc = function changeDesc(desc, id) {
+  //console.log(desc);
+  var val = JSON.parse($('#' + id).val());
+  val.CargaDesc = desc;
+  $('#' + id).val(JSON.stringify(val));
+};
+
 var descEdit;
 
 descEdit = function descEdit(id) {
   var val = JSON.parse($('#' + id).val());
-  promtP(val, id);
-  /*val.CargaDesc=prompt("Descripcion", val.CargaDesc);
-  	$('#'+id).val(JSON.stringify(val));
-  console.log(JSON.parse($('#'+id).val()));*/
-};
-
-var promtP;
-
-promtP = function promtP(val, id) {
-  val.CargaDesc = prompt("Descripcion", val.CargaDesc);
-  $('#' + id).val(JSON.stringify(val));
+  modal.innerHTML = "\n\t  <div class=\"modal-dialog alert\">\n\t\t<div class=\"modal-content\">\n\t\t<div class=\"modal-header\">\n\t\t</div>\n\t\t<div class=\"modal-body\">\n\t\t\t<p class='lead'>Descripcion</p>\n\t\t\t<textarea class=\"form-control\" id='descripcionArea' rows=\"5\">".concat(val.CargaDesc, "</textarea>\n\t\t</div>\n\t\t<div class=\"modal-footer\">\n\t\t\t<button type=\"button\" onclick=\"changeDesc(document.getElementById('descripcionArea').value, ").concat(id, ")\" class=\"btn btn-success\" data-dismiss=\"modal\">Aceptar</button>\n\t\t</div>\n\t\t</div>\n\t</div>\n\t");
 };
 
 var removeItem = function removeItem(stamp) {

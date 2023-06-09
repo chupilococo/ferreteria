@@ -1,6 +1,6 @@
 <?php 
 $seccion =  isset( $_GET['c'] ) ? $_GET['c'] : 'index';
-$titulo='Ferreteria_dev';
+$titulo='Ferreteria_DEV';
 $prov =  isset( $_GET['p'] ) ? $_GET['p'] : 'def';
 $aPermisos=[
 	'ventas',
