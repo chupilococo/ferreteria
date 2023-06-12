@@ -1,4 +1,3 @@
-<pre>
 <?php
 	include('../../config/setup.php');
 	var_dump($_POST);
@@ -29,6 +28,3 @@
 	}else{
 		header('Location:../../index.php?c=stock#error');
 	};
-?>
-</pre>
-<?php
