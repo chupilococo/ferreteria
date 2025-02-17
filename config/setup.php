@@ -1,6 +1,6 @@
 <?php 
 $seccion =  isset( $_GET['c'] ) ? $_GET['c'] : 'index';
-$titulo='Ferreteria_DEV';
+$titulo='Cerrajeria';
 $prov =  isset( $_GET['p'] ) ? $_GET['p'] : 'def';
 $aPermisos=[
 	'ventas',
@@ -13,7 +13,7 @@ $aPermisos=[
 	'adminland'
 ];
 
-$cnx=  mysqli_connect('localhost','root','bernardo','ferreteria_dev');
+$cnx=  mysqli_connect('localhost','root','bernardo','cerrajeriaNueva');
 
 if (mysqli_connect_errno())
   {
@@ -21,4 +21,3 @@ if (mysqli_connect_errno())
   }
 
 session_start();
-?>

@@ -1,6 +1,7 @@
 <?php
 include('../../config/setup.php');
 $venta = $_POST;
+
 $error = false;
 $validFac = mysqli_query($cnx, "Select id from facturas where nombre='" . trim($venta['factura']) . "' and fecha='" . trim($venta['fechaVenta']) . "' AND estado='0'");
 
@@ -12,7 +13,7 @@ if (mysqli_num_rows($validFac) == 0) {
 } else {
 	//echo 'La factura existe';
 	$FacID = mysqli_fetch_assoc($validFac)['id'];
-	echo "ID de la factura:$FacID <hr/>";
+	// echo "ID de la factura:$FacID <hr/>";
 };
 
 //echo'<hr />';
@@ -51,8 +52,10 @@ foreach ($venta as $indice => $valor) {
 			 				'$producto[CargaPrecioProv]'
 			 			);
 			 ";
+
 		mysqli_query($cnx, $InStockFac);
 		if (mysqli_error($cnx)) {
+			// echo "ACA??" ;
 			echo mysqli_error($cnx);
 			// 	$error=true;
 		};
@@ -63,7 +66,7 @@ foreach ($venta as $indice => $valor) {
 				WHERE
 					id = '$producto[CargaId]'
 			";
-		// mysqli_query($cnx,$upStock);
+		mysqli_query($cnx,$upStock);
 		if (mysqli_error($cnx)) {
 			echo mysqli_error($cnx);
 			$error = true;

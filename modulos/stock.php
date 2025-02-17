@@ -47,7 +47,7 @@ $consulta_productos = "
 	s.cantidad
 FROM
 	stock s
-join
+left join
 	proveedores p 
 	on p.id =s.FKproveedores 
 WHERE
@@ -66,6 +66,9 @@ $query_productos = mysqli_query($cnx, $consulta_productos);
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<h3>Busqueda</h3>
+			<pre>
+				<!-- <?=$consulta_productos ?> -->
+			</pre>
 			<form class='' action="" method='GET'>
 				<input type="hidden" name='c' value='stock'>
 				<div class="row">
